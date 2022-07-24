@@ -1,0 +1,26 @@
+.okcontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-size: 5vmin;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.box{
+    background-color: rgb(163, 163, 163);
+    border: 3px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    width: 25%;
+    height: 60vh;
+    margin: 10px;
+}
+
+.img {
+    width: 100%;
+}

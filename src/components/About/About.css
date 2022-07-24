@@ -1,0 +1,11 @@
+.About-container {
+    width: 80%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.Cards-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
