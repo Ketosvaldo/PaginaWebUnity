@@ -3,6 +3,7 @@
     width: 100%;
     height: 100%;
     flex-wrap: wrap;
+    background-color: rgb(71, 128, 250);
 }
 
 .fur-container {
@@ -28,7 +29,7 @@
 }
 
 .message-container {
-    margin: 10px;
+    margin: 5vw 6vw;
     background-color: rgb(163, 163, 163);
     border: 3px solid black;
     border-radius: 30px;

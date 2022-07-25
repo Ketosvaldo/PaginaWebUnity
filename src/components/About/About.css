@@ -1,7 +1,23 @@
+.About-background{
+    background-color:rgb(71, 128, 250)
+}
+
 .About-container {
     width: 80%;
     margin-left: 10vw;
     margin-right: 10vw;
+    box-shadow: 20px 10px #0000008e;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.About-container h2{
+    margin-left: 20px;
+}
+
+.About-container p{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .Cards-display {

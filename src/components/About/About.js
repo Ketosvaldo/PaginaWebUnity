@@ -4,6 +4,7 @@ import items from '../../items/items';
 import Cards from './Cards';
 function About() {
     return (
+        <div className="About-background">
         <div className="About-container">
             <h2>Sobre mi</h2>
             <p>
@@ -35,6 +36,7 @@ function About() {
                     ))
                 }
             </div>
+        </div>
         </div>
     );
 }

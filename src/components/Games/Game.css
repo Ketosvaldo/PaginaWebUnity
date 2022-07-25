@@ -1,11 +1,15 @@
-.container {
+.containerGame {
     /* The container determains the size. */
     border: 6px solid black;
     border-radius: 8px;
     width: 960px;
     height: 540px;
+    left: 50%;
+    top: 60%;
+    position: absolute;
+    transform: translate(-50%, -50%);
   }
-  .container > .loading-overlay {
+  .containerGame > .loading-overlay {
     /* We'll render the overlay on top of the Unity Application. */
     position: absolute;
     top: 0;
@@ -18,8 +22,16 @@
     justify-content: center;
     align-items: center;
   }
-  .container > .unity {
+  .containerGame > .unity {
     /* The Unity Application matches it size to the container. */
     width: 100%;
     height: 100%;
+  }
+
+  .containerGame > .description {
+    text-align: center;
+  }
+
+  .containerGame h1 {
+    text-align: center;
   }
